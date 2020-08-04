@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body{
+    background-image: url(https://wallpapertag.com/wallpaper/full/5/6/6/782301-large-neutral-backgrounds-2560x1440.jpg);
+}
+#wrapper{
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: -10px 10px 10px 0px  rgb(158, 158, 185);
+    padding: 21px;
+    text-transform: uppercase;
+    width: 350px;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    left: 50%;
+	position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+      
+}
+
+h3{
+    font-family: 'Lato';
+    margin-bottom: 19px;
+    text-align: center;
+    
+}
+input{
+    background-color:  #e0e2e4;
+    border:none;
+    margin-bottom: 15px;
+    padding: 9px;
+    width: 100%;
+    
+    
+}
+button{
+    background-color: #c94c4c;
+    border:none;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 9px;
+    width:90%;
+}
+
+button:hover {
+    background-color: #eea29a;
+    }
+.button1{border-radius: 30px;}
+
+
+#forgot-password{
+    text-align:center;
+    text-transform: capitalize;
+}
+#forgot-password span{
+    text-decoration: underline;
+}
+label{
+    display: block;
+}
